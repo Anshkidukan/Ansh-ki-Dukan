@@ -1,2 +1,331 @@
 # Ansh-ki-Dukan
 Online store for Ansh Ki Dukan products
+[index.html](https://github.com/user-attachments/files/22197122/index.html)
+
+<!DOCTYPE html>[styles.css](https://github.com/user-attachments/files/22197125/styles.css)
+[script.js](https://github.com/user-attachments/files/22197124/script.js)
+[README.txt](https://github.com/user-attachments/files/22197123/README.txt)
+
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ansh ki Dukan — चप्पल, टूथब्रश, स्क्रबर, पत्तल, दोना, नाश्ता प्लेट</title>
+  <meta name="description" content="हमारे यहाँ हर तरह की हवाई चप्पल, टूथब्रश, स्क्रबर, पत्तल, दोना और नाश्ता प्लेट वाज़िब दामों में मिलते हैं।" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Ansh ki Dukan — रोज़मर्रा की सभी चीज़ें" />
+  <meta property="og:description" content="हवाई चप्पल, टूथब्रश, स्क्रबर, पत्तल, दोना, नाश्ता प्लेट — एक ही जगह।" />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="#home">
+        <img src="assets/logo.svg" alt="Ansh ki Dukan लोगो" />
+        <span>Ansh ki Dukan</span>
+      </a>
+      <nav class="nav">
+        <a href="#products">उत्पाद</a>
+        <a href="#about">हमारे बारे में</a>
+        <a href="#contact">संपर्क</a>
+        <a class="btn primary" href="https://wa.me/?text=%E0%A4%AE%E0%A5%81%E0%A4%9D%E0%A5%87%20%E0%A4%89%E0%A4%A4%E0%A5%8D%E0%A4%AA%E0%A4%BE%E0%A4%A6%20%E0%A4%95%E0%A5%80%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F%20%E2%9C%8C%EF%B8%8F" target="_blank" rel="noopener">WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>हर तरह की <span class="highlight">हवाई चप्पल</span>, <span class="highlight">टूथब्रश</span>, <span class="highlight">स्क्रबर</span>, <span class="highlight">पत्तल</span>, <span class="highlight">दोना</span> और <span class="highlight">नाश्ता प्लेट</span> — यहीं मिलेंगे।</h1>
+          <p>गुणवत्ता, वाजिब दाम और त्वरित सेवा। bulk ऑर्डर और retail — दोनों उपलब्ध।</p>
+          <div class="cta">
+            <a class="btn primary" href="#products">उत्पाद देखें</a>
+            <a class="btn" href="#contact">ऑर्डर/पूछताछ करें</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <!-- Decorative SVG -->
+          <svg viewBox="0 0 300 300" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" />
+                <stop offset="1" />
+              </linearGradient>
+            </defs>
+            <circle cx="150" cy="150" r="120" fill="url(#g)" opacity="0.1"/>
+            <rect x="60" y="60" width="180" height="120" rx="18" opacity="0.08"/>
+            <g opacity="0.3">
+              <path d="M40,230 C120,180 180,260 260,210" fill="none" stroke="currentColor" stroke-width="6" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="container">
+        <h2>हमारे उत्पाद</h2>
+        <p class="muted">नमूना लिस्ट नीचे है — मात्रा/ब्रांड के अनुसार दाम बदल सकते हैं।</p>
+        <div class="grid cards">
+          <!-- Product Cards -->
+          <article class="card">
+            <div class="icon slipper" aria-hidden="true"></div>
+            <h3>हवाई चप्पल</h3>
+            <p>पुरुष/महिला/बच्चों के साइज में उपलब्ध।</p>
+            <ul class="features">
+              <li>रंग: काला, नीला, ब्राउन</li>
+              <li>साइज: 6–11</li>
+              <li>थोक पर विशेष छूट</li>
+            </ul>
+            <div class="price">₹60 से</div>
+            <a class="btn small" href="https://wa.me/?text=%E0%A4%B9%E0%A4%B5%E0%A4%BE%E0%A4%88%20%E0%A4%9A%E0%A4%AA%E0%A5%8D%E0%A4%AA%E0%A4%B2%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F" target="_blank" rel="noopener">पूछताछ</a>
+          </article>
+
+          <article class="card">
+            <div class="icon brush" aria-hidden="true"></div>
+            <h3>टूथब्रश</h3>
+            <p>सॉफ्ट/मीडियम ब्रिसल, फैमिली पैक उपलब्ध।</p>
+            <ul class="features">
+              <li>सिंगल/4-पैक/10-पैक</li>
+              <li>कई ब्रांड्स</li>
+              <li>bulk ऑर्डर पर डिस्काउंट</li>
+            </ul>
+            <div class="price">₹5 से</div>
+            <a class="btn small" href="https://wa.me/?text=%E0%A4%9F%E0%A5%82%E0%A4%A5%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%B6%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F" target="_blank" rel="noopener">पूछताछ</a>
+          </article>
+
+          <article class="card">
+            <div class="icon scrubber" aria-hidden="true"></div>
+            <h3>स्क्रबर</h3>
+            <p>किचन/बाथ स्क्रबर, स्टील व फोम।</p>
+            <ul class="features">
+              <li>स्टील स्क्रबर</li>
+              <li>फोम स्क्रबर</li>
+              <li>मल्टी-पैक विकल्प</li>
+            </ul>
+            <div class="price">₹5 प्रति पीस</div>
+            <a class="btn small" href="https://wa.me/?text=%E0%A4%B8%E0%A5%8D%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%B0%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F" target="_blank" rel="noopener">पूछताछ</a>
+          </article>
+
+          <article class="card">
+            <div class="icon pattal" aria-hidden="true"></div>
+            <h3>पत्तल (Leaf Plate)</h3>
+            <p>शुद्ध, biodegradable पत्तल — शादी/समारोह हेतु।</p>
+            <ul class="features">
+              <li>10", 12", 14" आकार</li>
+              <li>100/500 पीस पैक</li>
+              <li>थोक की दरें</li>
+            </ul>
+            <div class="price">₹20 में 30 पत्तल</div>
+            <a class="btn small" href="https://wa.me/?text=%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%B2%20%E0%A4%95%E0%A5%80%20%E0%A4%95%E0%A5%80%E0%A4%AE%E0%A4%A4%E0%A5%8B%E0%A4%82%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A4%82%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F" target="_blank" rel="noopener">पूछताछ</a>
+          </article>
+
+          <article class="card">
+            <div class="icon dona" aria-hidden="true"></div>
+            <h3>दोना (Leaf Bowl)</h3>
+            <p>नाश्ता/मिठाई/चाट के लिए उपयुक्त।</p>
+            <ul class="features">
+              <li>4"–6" आकार</li>
+              <li>100/1000 पीस पैक</li>
+              <li>लीक-रेसिस्टेंट</li>
+            </ul>
+            <div class="price">₹5 में 15 दोना</div>
+            <a class="btn small" href="https://wa.me/?text=%E0%A4%A6%E0%A5%8B%E0%A4%A8%E0%A4%BE%20%E0%A4%95%E0%A5%87%20%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%20%E0%A4%AE%E0%A5%87%E0%A4%82%20%E0%A4%9C%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%9A%E0%A4%BE%E0%A4%B9%E0%A4%BF%E0%A4%8F" target="_blank" rel="noopener">पूछताछ</a>
+          </article>
+
+          <article class="card">
+            <div class="icon plate" aria-hidden="true"></div>
+            <h3>नाश्ता प्लेट (Disposable)</h3>
+            <p>पेपर/प्लास्टिक/कंपोस्टेबल विकल्प।</p>
+            <ul class="features">
+              <li>7"–10" आकार</li>
+              <li>50/100/500 पीस पैक</li>
+              <li>इवेंट/दुकान के लिए</li>
+            </ul>
+            <div class="price">₹7 में 15 प्लेट</div>
+            <a class="btn small" href="https://wa.me/?text=%E0%A4%A8%E0%A4%BE%E0%A4%B6%E0%A5%8D%E0%A4%A4%E0%A4%BE%20%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%87%E0%A4%9F%20%E0%A4%95%E0%A5%80%20%E0%A4%AC%E0%A5%81%E0%A4%95%E0%A4%BF%E0%A4%82%E0%A4%97%20%E0%A4%95%E0%A5%87%20%E0%A4%B2%E0%A4%BF%E0%A4%8F" target="_blank" rel="noopener">पूछताछ</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container about">
+        <div>
+          <h2>हमारे बारे में</h2>
+          <p>हम आपके भरोसेमंद <strong>Ansh ki Dukan</strong> हैं — रोज़मर्रा की ज़रूरतों के उत्पादों की विस्तृत रेंज के साथ। उद्देश्य है बेहतरीन गुणवत्ता, उचित दाम और समय पर डिलीवरी।</p>
+          <ul class="ticks">
+            <li>रिटेल और थोक — दोनों</li>
+            <li>bulk ऑर्डर पर विशेष दरें</li>
+            <li>कस्टम पैकिंग/ब्रांडिंग (ऑन रिक्वेस्ट)</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>दुकान समय</h3>
+          <p>सोम–रवि: सुबह 9 बजे — रात 9 बजे</p>
+          <h3 style="margin-top:1rem">सेवित क्षेत्र</h3>
+          <p>लोकल डिलीवरी उपलब्ध (शहर सीमा के भीतर)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact">
+        <h2>संपर्क व ऑर्डर</h2>
+        <p class="muted">नीचे अपनी जानकारी भरें, या सीधे फोन/WhatsApp करें।</p>
+        <div class="contact-grid">
+          <form class="card form" onsubmit="return false;">
+            <label>आपका नाम
+              <input type="text" placeholder="अपना नाम लिखें" required />
+            </label>
+            <label>मोबाइल नंबर
+              <input type="tel" placeholder="मोबाइल नंबर" required />
+            </label>
+            <label>संदेश
+              <textarea rows="4" placeholder="आप क्या लेना चाहते हैं? मात्रा/साइज/ब्रांड बताएं।"></textarea>
+            </label>
+            <button class="btn primary" onclick="sendWhatsApp()">WhatsApp पर भेजें</button>
+          </form>
+          <div class="card">
+            <h3>सीधे संपर्क</h3>
+            <p><strong>मोबाइल:</strong> <a id="phoneLink" href="tel:+910000000000">+91 9302989175</a></p>
+            <p><strong>ईमेल:</strong> <a href="mailto:solanki62277@gmail.com">solanki62277@gmail.com</a></p>
+            <p><strong>पता:</strong> Goreshwar marg, Khatik Mohalla, Ward No-02, Ratangarh, Dist-Neemuch (M.P.)</p>
+            <div class="note">ऊपर मोबाइल/ईमेल/पता अपने अनुसार बदल लें।</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <p>© <span id="year"></span> Ansh ki Dukan. सर्वाधिकार सुरक्षित.</p>
+      <a href="#home" class="top">ऊपर जाएँ ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+# जनरल स्टोर — स्टैटिक वेबसाइट
+
+इस फ़ोल्डर में एक सिंगल-पेज स्टैटिक वेबसाइट है:
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/` (लोगो व आइकन्स)
+
+## कैसे चलाएँ
+- डबल-क्लिक कर के `index.html` ब्राउज़र में खोलें, या
+- किसी भी होस्टिंग जैसे Netlify, Vercel, GitHub Pages पर अपलोड करें।
+
+## क्या बदलें
+- `index.html` में संपर्क सेक्शन में मोबाइल/ईमेल/पता अपने अनुसार बदलें।
+- दाम/विवरण/श्रेणियाँ आप संपादित कर सकते हैं।
+- WhatsApp बटन ऑटोमेटिक मैसेज बनाएगा। अगर आपके पास बिज़नेस नंबर है तो `https://wa.me/<आपका_नंबर>?text=...` यूज़ करें।
+
+शुभकामनाएँ!
+
+
+function sendWhatsApp() {
+  const form = document.querySelector('form.form');
+  const name = form.querySelector('input[type="text"]').value.trim();
+  const phone = form.querySelector('input[type="tel"]').value.trim();
+  const msg = form.querySelector('textarea').value.trim();
+
+  const text = encodeURIComponent(`नमस्ते, मेरा नाम ${name || '(नाम)'} है। मेरा नंबर ${phone || '(नंबर)'} है।
+मैं ऑर्डर/जानकारी चाहता/चाहती हूँ:
+${msg || '(संदेश)'}
+`);
+  const waURL = `https://wa.me/?text=${text}`;
+  window.open(waURL, '_blank');
+}
+
+document.getElementById('year').textContent = new Date().getFullYear();
+
+
+:root {
+  --bg: #0f172a;
+  --surface: #0b1225;
+  --card: #11182f;
+  --text: #e5e7eb;
+  --muted: #a3a7b7;
+  --primary: #22c55e;
+  --ring: #2dd4bf;
+  --shadow: 0 10px 25px rgba(0,0,0,.35);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji', 'Segoe UI Symbol'; }
+body { color: var(--text); background: radial-gradient(1200px 800px at 20% 0%, #0c1530 0%, #071022 35%, #050d1b 65%, #040a14 100%); line-height: 1.6; }
+
+.container { width: min(1100px, 92%); margin: 0 auto; }
+
+.site-header { position: sticky; top: 0; z-index: 50; backdrop-filter: blur(10px); background: rgba(5, 10, 20, 0.6); border-bottom: 1px solid rgba(255,255,255,.06); }
+.header-wrap { display: flex; align-items: center; justify-content: space-between; padding: .75rem 0; }
+.brand { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--text); font-weight: 700; letter-spacing: .3px; }
+.brand img { width: 34px; height: 34px; }
+.nav { display: flex; gap: 1rem; align-items: center; }
+.nav a { color: var(--text); text-decoration: none; opacity: .9; }
+.nav .btn { margin-left: .25rem; }
+
+.hero { padding: 5rem 0 3rem; }
+.hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; }
+.hero h1 { font-size: clamp(1.5rem, 1.2rem + 1.8vw, 2.4rem); line-height: 1.2; margin: 0 0 1rem; }
+.highlight { color: var(--primary); }
+.hero p { margin: 0 0 1.25rem; color: var(--muted); }
+.hero-art svg { width: 100%; height: auto; color: var(--ring); }
+
+.section { padding: 3rem 0; }
+.section.alt { background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.0)); }
+.section h2 { margin: 0 0 .5rem; font-size: 1.6rem; }
+.muted { color: var(--muted); }
+
+.grid.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.card { background: var(--card); border: 1px solid rgba(255,255,255,.06); border-radius: 18px; padding: 1rem; box-shadow: var(--shadow); }
+.card h3 { margin-top: .5rem; margin-bottom: .25rem; }
+.features { margin: .25rem 0 .75rem; padding-left: 1rem; color: var(--muted); }
+.price { font-weight: 800; margin-bottom: .5rem; }
+
+.btn { display: inline-block; padding: .55rem .9rem; border-radius: 999px; background: rgba(255,255,255,.06); color: var(--text); border: 1px solid rgba(255,255,255,.08); text-decoration: none; }
+.btn:hover { transform: translateY(-1px); }
+.btn.primary { background: linear-gradient(135deg, var(--primary), var(--ring)); color: #03101c; font-weight: 700; }
+.btn.small { padding: .45rem .75rem; font-size: .95rem; }
+
+.icon { width: 48px; height: 48px; border-radius: 12px; background: radial-gradient(circle at 30% 20%, rgba(255,255,255,.25), rgba(255,255,255,.08)); border: 1px solid rgba(255,255,255,.06); box-shadow: var(--shadow); }
+.icon.slipper { mask: url('assets/icon-slipper.svg') center / 70% no-repeat; -webkit-mask: url('assets/icon-slipper.svg') center / 70% no-repeat; background: linear-gradient(135deg, #34d399, #22d3ee); }
+.icon.brush { mask: url('assets/icon-brush.svg') center / 70% no-repeat; -webkit-mask: url('assets/icon-brush.svg') center / 70% no-repeat; background: linear-gradient(135deg, #a78bfa, #60a5fa); }
+.icon.scrubber { mask: url('assets/icon-scrubber.svg') center / 70% no-repeat; -webkit-mask: url('assets/icon-scrubber.svg') center / 70% no-repeat; background: linear-gradient(135deg, #f59e0b, #f472b6); }
+.icon.pattal { mask: url('assets/icon-leaf-plate.svg') center / 70% no-repeat; -webkit-mask: url('assets/icon-leaf-plate.svg') center / 70% no-repeat; background: linear-gradient(135deg, #4ade80, #2dd4bf); }
+.icon.dona { mask: url('assets/icon-bowl.svg') center / 70% no-repeat; -webkit-mask: url('assets/icon-bowl.svg') center / 70% no-repeat; background: linear-gradient(135deg, #f87171, #fb923c); }
+.icon.plate { mask: url('assets/icon-plate.svg') center / 70% no-repeat; -webkit-mask: url('assets/icon-plate.svg') center / 70% no-repeat; background: linear-gradient(135deg, #60a5fa, #34d399); }
+
+.about { display: grid; grid-template-columns: 1.1fr .9fr; gap: 1rem; align-items: start; }
+.about-card { background: var(--card); border: 1px solid rgba(255,255,255,.06); border-radius: 18px; padding: 1rem; }
+
+.contact { }
+.contact-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 1rem; }
+.form label { display: block; font-weight: 600; margin: .5rem 0 .25rem; }
+input, textarea { width: 100%; padding: .7rem .8rem; border-radius: 12px; border: 1px solid rgba(255,255,255,.12); background: #0b1225; color: var(--text); outline: none; }
+input:focus, textarea:focus { border-color: var(--ring); box-shadow: 0 0 0 3px rgba(45, 212, 191, .2); }
+
+.site-footer { border-top: 1px solid rgba(255,255,255,.06); padding: 1rem 0; background: rgba(0,0,0,.2); }
+.foot { display: flex; align-items: center; justify-content: space-between; }
+.foot .top { color: var(--text); text-decoration: none; opacity: .8; }
+
+.ticks { padding-left: 1.1rem; }
+.ticks li { margin: .25rem 0; }
+
+.note { margin-top: .5rem; font-size: .9rem; color: var(--muted); }
+
+/* Responsive */
+@media (max-width: 900px) {
+  .hero-grid, .about, .contact-grid { grid-template-columns: 1fr; }
+  .site-header .nav a { display: none; }
+  .site-header .nav .btn { display: inline-block; }
+}
